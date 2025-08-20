@@ -1,0 +1,45 @@
+@keyframes slideGlow {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+    text-shadow: 0 0 0px #ffd700;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-5px) scale(1.05);
+    text-shadow: 0 0 15px #ffd700;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    text-shadow: 0 0 0px #ffd700;
+  }
+}
+
+.animate-slideGlow {
+  animation: slideGlow 1s ease forwards;
+}
+
+.delay-\[0ms\] {
+  animation-delay: 0ms;
+}
+.delay-\[300ms\] {
+  animation-delay: 300ms;
+}
+.delay-\[600ms\] {
+  animation-delay: 600ms;
+}
+
+@keyframes imageEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-imageEntrance {
+  animation: imageEntrance 1s ease forwards;
+}
