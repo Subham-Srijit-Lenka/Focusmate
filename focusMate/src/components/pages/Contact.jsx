@@ -95,7 +95,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  name="user_email" // Must match {{user_email}} in your template
+                  name="user_email"
                   placeholder="you@example.com"
                   required
                   className="w-full px-4 py-2 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2"
@@ -106,7 +106,7 @@ const Contact = () => {
                   Message
                 </label>
                 <textarea
-                  name="message" // Must match {{message}} in your template
+                  name="message"
                   rows="4"
                   placeholder="Write your message..."
                   required
